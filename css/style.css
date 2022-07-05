@@ -153,6 +153,10 @@ p{
     flex: 1 1 400px;
     text-align: center;
 }
+.counter-item h2{
+    font-size: 40px;
+    line-height: 50px;
+}
 /* Footer Area */
 .footer-area{
     background-color: #0B0D17;
