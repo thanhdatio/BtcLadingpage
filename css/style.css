@@ -45,6 +45,9 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
+.hero-section{
+    padding-bottom: 70px;
+}
 .hero-text{
     flex: 40%;
     margin: auto;
