@@ -11,10 +11,9 @@ img{
     width: 100%;
 }
 .container{
-    display: flex;
-    width: 1400px;
+    max-width: 1400px;
+    width: 90%;
     margin: auto;
-    justify-content: space-evenly;
 }
 .section-padding{
     padding: 50px 0px;
@@ -33,27 +32,64 @@ img{
     line-height: 130%;
     font-weight: 600;
 }
+p{
+    color: #828282;
+    letter-spacing: -0.02em;
+    line-height: 160%;
+}
 /* Hero Section Style */
+.hero-wrapper,
+.about-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
 .hero-text{
-    width: 590px;
+    flex: 40%;
     margin: auto;
 }
-.hero-text h1{
+.hero-text h1 {
     font-size: 60px;
     line-height: 78px;
-    letter-spacing: -2%;
+    letter-spacing: -0.032px;
     font-weight: 700;
     color: #575757;
     margin-bottom: 30px;
 }
 .hero-text p{
-    color: #828282;
     font-size: 20px;
-    letter-spacing: -0.02em;
-    line-height: 160%;
     margin-bottom: 60px;
 }
-.hero-img img{
-    width: 80%;
+.hero-img{
+    flex: 60%;
 }
 /* About Me Area Style */
+.about-me{
+    background-image: url("../images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.about-img{
+    flex: 50%;
+    text-align: center;
+}
+.about-img img {
+    width: 50%;
+    margin-bottom: -4px;
+}
+.about-text{
+    flex: 50%;
+    margin: auto;
+    padding: 0px 120px 0px 50px;
+}
+.about-text h3{
+    color: #575757;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.about-text p{
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 28px;
+}
